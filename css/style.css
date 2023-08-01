@@ -16,6 +16,7 @@
     --second-bg-color: #112e42;
     --text-color: #ededed;
     --main-color: #00abf0;
+    --third-bg-color: #173244;
 }
 
 html {
@@ -183,7 +184,7 @@ section {
     align-items: center;
     flex-direction: column;
     gap: 2rem;
-    background: var(--bg-color);
+    background: var(--second-bg-color);
     padding-bottom: 6rem;
 }
 .heading {
@@ -300,7 +301,7 @@ span {
 
 .mywork{
     position: relative;
-    background: var(--bg-color);
+    background: var(--third-bg-color);
     text-align: center;
     align-items: center;
 }
@@ -326,14 +327,14 @@ span {
     width: 308px;
     position: relative;
     height: 400px;
-    background: var(--second-bg-color);
+    background: var(--third-bg-color);
     margin: 30px 10px;
     padding: 20px 15px;
     display: flex;
     flex-direction: column;
-    box-shadow: 0.5px 10px var(--main-color);
     transition: 0.3s ease-in-out;
     margin-top: 5%;
+    border-radius: .6rem;
 }
 
 .container .card .imgbx {
@@ -342,12 +343,14 @@ span {
     height: 260px;
     top: -60px;
     left: 20px;
-    box-shadow: 0 5px 20px var(--main-color);
+    border-radius: .6rem;
+    border: .2rem solid var(--main-color);
 }
 
 .container .card .imgbx img {
     max-width: 100%;
     border-radius: 10px;
+    box-shadow: 0 5px 20px var(--main-color);
 }
 
 .imgbx:hover img{
