@@ -347,12 +347,14 @@ span {
     background: var(--third-bg-color);
     text-align: center;
     align-items: center;
+    gap: 2rem;
 }
 
 .mywork h3 {
     position: relative;
     display: inline-block;
-    font-size: 3rem;
+    font-size: 4rem;
+    margin-bottom: 3rem;
     
 }
 
@@ -365,7 +367,7 @@ span {
     align-items: center;
     flex-wrap: wrap;
     padding: 30px;
-    margin-top: 8%;
+    
 }
 
 .container .card {
@@ -410,7 +412,6 @@ span {
     display: inline-block;
     left: 50%;
     transform: translateX(-50%);
-    font-size: 3rem;
     text-align: center;
 }
 
