@@ -225,7 +225,7 @@ section {
 }
 .heading {
     position: relative;
-    font-size: 4em;
+    font-size: 4rem;
     margin-bottom: 3rem;
     text-align: center;
 }
@@ -237,6 +237,7 @@ span {
 .about-img {
     position: relative;
     width: 25rem;
+    height: 25rem;
     border-radius: 50%;
     display: flex;
     justify-content: center;
