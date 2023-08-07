@@ -12,11 +12,11 @@
 }
 
 :root {
-    --bg-color: #081b29;
-    --second-bg-color: #112e42;
+    --bg-color: #484848;
+    --second-bg-color: #505050;
     --text-color: #ededed;
-    --main-color: #00abf0;
-    --third-bg-color: #173244;
+    --main-color: #b8b8b8;
+    --third-bg-color: #585858;
 }
 
 html {
@@ -58,7 +58,7 @@ body {
 }
 
 .navbar a{
-    font-size: 1.7rem;
+    font-size: 2rem;
     color: var(--text-color);
     font-weight: 500;
     margin-left: 3.5rem;
