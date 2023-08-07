@@ -513,6 +513,8 @@ span {
     border-radius: .6rem;
     z-index: 1;
     overflow: hidden;
+    width: 25px;
+    height: 30px;
 }
 
 .footer-iconTop a::before {
