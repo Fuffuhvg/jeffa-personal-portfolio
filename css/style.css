@@ -392,11 +392,13 @@ span {
     left: 20px;
     border-radius: .6rem;
     border: .2rem solid var(--third-bg-color);
+    
 }
 
 .container .card .imgbx img {
     max-width: 100%;
     border-radius: 10px;
+    margin-bottom: 5%;
 }
 
 .imgbx:hover img{
