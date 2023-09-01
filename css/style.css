@@ -12,11 +12,11 @@
 }
 
 :root {
-    --bg-color: #484848;
-    --second-bg-color: #505050;
+    --bg-color: #483248;
+    --second-bg-color: #301934;
     --text-color: #ededed;
-    --main-color: #b8b8b8;
-    --third-bg-color: #585858;
+    --main-color:pink;
+    --third-bg-color: #3a1d3f;
 }
 
 html {
@@ -87,7 +87,7 @@ section {
     display: flex;
     align-items: center;
     padding: 0 9%;
-    background: url('images/IMG_20191223_133605.jpg') no-repeat;
+    background: url('images/bg.jpg') no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -210,7 +210,7 @@ section {
 }
 
 .home-imgHover:hover {
-    background: var(--bg-color);
+    background: red;
     opacity: .8;
 }
 
